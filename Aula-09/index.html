@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="post">
+        <table border="1">
+            <thead>
+                <h1>Formulario</h1>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <label>Nome:</label>
+                    </td>
+
+                    <td>
+                        <input type="text" name="nome" id="nome-usuario" size="40" maxlength="30"
+                            placeholder="Digite seu nome">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="e-mail pessoal"> E-mail pessoal: </label>
+                    </td>
+                    <td>
+                        <input type="e-mail pessoal" id="e-mail pessoal" name="e_mail pessoal" size="40" maxlength="30"
+                            placeholder="E-mail">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="E-mail(patter)"> E-mail(patter)</label>
+                    </td>
+                    <td>
+                        <input type="=e-mail(patter)" id="E-mail(patter)" name=" E-mail(patter)" size="40"
+                            maxlength="30">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label> Senha:</label>
+                    </td>
+                    <td>
+                        <input type="Senha" id="Senha" name="Senha" size="40" maxlength="15">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label> Idade:</label>
+                    </td>
+                    <td>
+                        <input type="idade" id="Idade" name="Idade" size="7" maxlength="3">
+                    </td>
+                </tr>
+                <tr>
+
+                    <td colspan="2">
+                        <label> deixe um comntario:</label> <br>
+                        <textarea name="comentario" cols="50" rows="5" placeholder="Deixe o seu comentario"
+                            readonly></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label> Mateial de interesse:</label>
+                        <br>
+                        <input type="checkbox" name=" back" value="back"> Backend
+                        <br>
+                        <input type="checkbox" name="Front" value="Front"> FrontEnd
+                        <br>
+                        <input type="checkbox" name="Full" value="Full"> FullStack
+                    </td>
+                    <td>
+                        <label> Tipo de Viagem</label>
+                        <br>
+                        <input type="radio" name="Negocios" value="Negocios"> Negócios
+                        <br>
+                        <input type="radio" name="Lazer" value="Lazer"> Lazer
+                        <br>
+                        <input type="radio" name="Turismo" value="Turismo"> Turismo
+                        <br>
+                        <input type="radio" name="academico" value="Academico"> Acadêmico
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <Label>Esporte Favorito: </Label>
+                        <select name="Esportes" size="1">
+                            <option value=""> Selecione</option>
+                            <option value="Futebol"> Futebol</option>
+                            <option value="Futebol"> basquete</option>
+                            <option value="Futebol"> Volei</option>
+                            <option value="Futebol"> tenis</option>
+                            <option value="Futebol"> natação</option>
+                        </select>
+                    </td>
+                    <td>
+                        Investimentos:
+                        <select name="investimentos" id="investimentos">
+                            <optgroup label="Baixo Risco">
+                                <option value="poupanca">Poupança</option>
+                                <otion value="CDB">CDB</otion>
+                                <option value="tesouroDireto">Tesouro Direto</option>
+                            </optgroup>
+                            <optgroup label="Medio risco">
+                                <option value="FundosImobiliarios"> Fundos Imobiliariso</option>
+                                <option value="CDI"> CDI</option>
+                                <option value="debentures"> DEBENTURES</option>
+                            </optgroup>
+                            <optgroup label="Alto Risco">
+                                <option value="criptomoedas"> Criptomoedas</option>
+                                <option value="acoes"> ações</option>
+                            </optgroup>
+                        </select>
+                </tr>
+                <tr>
+                    <td>
+                        <br>
+                        escolha uma cor: <input type="color" id="cor">
+                        <br>
+                        <br>
+                    </td>
+                    <td>
+                        selecione um arquivo: <input type="file" name="arquivo" id="arquivo">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">Data e hora do envio: <input type="determine-local" name="dateT" id="dateT">
+                        <br>
+                        <br>
+                    </td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>
+                        <button type="submit"> enviar</button>
+                    </td>
+                    <td>
+                        <button type="reset">limpar</button>
+                    </td>
+                </tr>
+
+            </tfoot>
+
+
+        </table>
+    </form>
+</body>
+
+</html>
