@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    align-content: space-around;
+    flex-wrap: wrap;
+    background-color: #d0bde9;
+    justify-content: right;
+}
+ 
+  .box {
+    flex-grow: 1;
+    padding: 20px;
+    text-align: center;
+    background: #6e8cce;
+    margin: 5px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    transition: 0.3s;
+    
+  }
+
+  .destaque {
+    flex-grow: 2;
+    background: #31858e;
+  }
+
+  .box:active {
+    background: #2ec4b6;
+  }
+  .box:hover{
+    color: #343c27;
+    text-decoration: underline;
+  }
